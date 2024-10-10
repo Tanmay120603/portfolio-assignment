@@ -1,0 +1,24 @@
+/* Google Fonts Integration */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+@media  screen and (max-width:1024px){
+  :root{
+    font-size: 9px;
+  }
+}
+@media  screen and (max-width:680px){
+  :root{
+    font-size: 8px;
+  }
+}

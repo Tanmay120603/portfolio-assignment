@@ -1,0 +1,12 @@
+.navbar-container{
+    padding-right: 5rem;
+    justify-self: end;
+}
+.navbar-container>ul{
+    display: flex;
+    gap: 3em;
+}
+.navbar-container>ul>a{
+    color: black;
+    text-decoration: none;
+}

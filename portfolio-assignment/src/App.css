@@ -1,0 +1,43 @@
+.small-icons{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.xxl-text{
+    font-size: 6.8rem;
+}
+
+.xl-text{
+    font-size: 4.2rem;
+}
+
+.lg-text{
+    font-size: 2.4rem;
+}
+
+.md-text{
+    font-size: 1.8rem;
+}
+
+.sm-text{
+    font-size: 1.6rem;
+}
+
+.poppins-font{
+    font-family: "Poppins", sans-serif;
+}
+@media  screen and (max-width:680px){
+    .xl-text{
+        font-size: 3.2rem;
+    }
+    .lg-text{
+        font-size: 2rem;
+    }
+    .md-text{
+        font-size: 1.6rem;
+    }
+    .sm-text{
+        font-size: 1.4rem;
+    }
+}
